@@ -78,3 +78,9 @@ Explored the dataset (541,910 total rows) to assess quality before analysis:
 - Retention focus: 795 customers fall into the "Lost" segment — consider a win-back campaign targeting this group before they're permanently gone.
 - Geographic expansion: Revenue is heavily concentrated in the UK (~84%). Diversifying marketing efforts toward the Netherlands and Germany (2nd and 4th highest revenue) could reduce market dependency.
 - Reward loyalty: "Champions" (998 customers) drive disproportionate value — a loyalty program could increase retention in this segment further.
+
+---
+
+## 6. Files
+- [Power BI Dashboard (.pbix)](./Online%20Retail%20II.pbix)
+- [SQL Queries](./online_retail_analysis.sql)
