@@ -1,5 +1,11 @@
 # Online_Retail_II
 SQL-based data analysis and customer segmentation (RFM) on the Online Retail II dataset to uncover sales trends and customer behavior.
+
+## Tools Used
+- SQL Server — Data cleaning, exploration, and analysis
+- Power BI — Interactive dashboard and RFM customer segmentation
+- DAX — Custom measures (Revenue, Cancellation Rate, AOV)
+
 ## 1. Business Questions
 - What is the total revenue and total number of orders? 
 - What is the Average Order Value (AOV)? 
@@ -44,21 +50,31 @@ Explored the dataset (541,910 total rows) to assess quality before analysis:
 ### Sales Overview
 
 
-![Sales Overview](<img width="1003" height="557" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/c42e8a7a-c936-4c71-8b6c-606c30b3649e" />
-)
 
 
+<img width="1003" height="557" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/c42e8a7a-c936-4c71-8b6c-606c30b3649e" />
+
+---
 
 ### Products & Countries
 
 
-![Products & Countries](<img width="990" height="549" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/76fbcd2e-8fed-4206-a3bb-bc8915af249f" />
-)
+<img width="990" height="549" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/5c73d0be-7ba4-4315-b0c1-85d71ca36b57" />
 
 
+
+---
 
 ### Customer Segmentation (RFM)
 
 
-![Customer Segmentation](<img width="989" height="550" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/65e4455b-e149-4b58-ab7e-caf107cf171f" />
-)
+
+<img width="989" height="550" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/65e4455b-e149-4b58-ab7e-caf107cf171f" />
+
+---
+## 5. Recommendations
+
+- Reduce cancellations: With a 14.81% cancellation rate, investigate the top cancelled products/countries to identify recurring quality or fulfillment issues.
+- Retention focus: 795 customers fall into the "Lost" segment — consider a win-back campaign targeting this group before they're permanently gone.
+- Geographic expansion: Revenue is heavily concentrated in the UK (~84%). Diversifying marketing efforts toward the Netherlands and Germany (2nd and 4th highest revenue) could reduce market dependency.
+- Reward loyalty: "Champions" (998 customers) drive disproportionate value — a loyalty program could increase retention in this segment further.
