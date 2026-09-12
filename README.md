@@ -71,7 +71,7 @@ Explored the dataset (541,910 total rows) to assess quality before analysis:
 
 <img width="989" height="550" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/65e4455b-e149-4b58-ab7e-caf107cf171f" />
 
----
+
 ## 5. Recommendations
 
 - Reduce cancellations: With a 14.81% cancellation rate, investigate the top cancelled products/countries to identify recurring quality or fulfillment issues.
@@ -79,7 +79,7 @@ Explored the dataset (541,910 total rows) to assess quality before analysis:
 - Geographic expansion: Revenue is heavily concentrated in the UK (~84%). Diversifying marketing efforts toward the Netherlands and Germany (2nd and 4th highest revenue) could reduce market dependency.
 - Reward loyalty: "Champions" (998 customers) drive disproportionate value — a loyalty program could increase retention in this segment further.
 
----
+
 
 ## 6. Files
 - [Power BI Dashboard (.pbix)](./Online%20Retail%20II.pbix)
