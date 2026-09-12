@@ -19,7 +19,46 @@ Explored the dataset (541,910 total rows) to assess quality before analysis:
 - All other fields (Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Country) had no missing values.
 
 ### Cleaning actions taken:
-- Excluded cancelled orders (Invoice starting with 'C') from revenue calculations.
+- Included cancelled orders (Invoice starting with 'C') in revenue calculations,
+  since their negative Quantity naturally offsets returns and yields Net Revenue.
 - Filtered out rows with negative or zero Quantity/Price using TRY_CONVERT before revenue and RFM calculations.
 - Replaced missing product descriptions with 'Unknown'.
 - Excluded rows with missing/blank Customer ID from RFM analysis, since RFM requires a valid customer identity.
+## 3. Analysis & Key Insights
+- Total Revenue & Orders: Net revenue reached $9,747,765.93 across 25,900 unique orders.
+- Average Order Value (AOV): ~$376.36 per order.
+- Cancellation Rate: 14.81% of orders (3,836 out of 25,900) were cancelled.
+- Monthly Trend: Revenue grew steadily from mid-year, peaking in November 2011 at ~$1.46M — consistent with pre-holiday shopping behavior.
+- Top Market: The United Kingdom dominates sales, generating $8.19M (~84% of total revenue), followed by Netherlands, EIRE, Germany, and France.
+- Product Performance: The best-selling product by quantity was "PAPER CRAFT, LITTLE BIRDIE" with over 80,000 units sold.
+- Customer Segmentation (RFM): Out of 4,372 unique customers, segments break down as:
+  - Champions: 998
+  - Others: 853
+  - Lost: 795
+  - Loyal Customers: 674
+  - At Risk: 541
+  - New Customers: 478
+
+    ## 4. Dashboard Preview
+
+### Sales Overview
+
+
+![Sales Overview](<img width="1003" height="557" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/c42e8a7a-c936-4c71-8b6c-606c30b3649e" />
+)
+
+
+
+### Products & Countries
+
+
+![Products & Countries](<img width="990" height="549" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/76fbcd2e-8fed-4206-a3bb-bc8915af249f" />
+)
+
+
+
+### Customer Segmentation (RFM)
+
+
+![Customer Segmentation](<img width="989" height="550" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/65e4455b-e149-4b58-ab7e-caf107cf171f" />
+)
